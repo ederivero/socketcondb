@@ -1,0 +1,31 @@
+{
+  "name": "tarea-back",
+  "version": "1.0.0",
+  "description": "Tarea de frontEnd CodiGo3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "tarea"
+  ],
+  "author": "Eduardo de Rivero Manrique",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.6",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.26",
+    "@types/express": "^4.16.1",
+    "@types/node": "^12.0.2",
+    "@types/sequelize": "^4.28.1",
+    "@types/socket.io": "^2.1.2",
+    "@types/validator": "^10.11.0"
+  }
+}
